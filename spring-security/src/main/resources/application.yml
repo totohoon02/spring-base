@@ -1,0 +1,5 @@
+spring:
+  config:
+    import:
+      - classpath:config/mysqlConfig.yml
+      - classpath:config/swaggerConfig.yml
