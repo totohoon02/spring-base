@@ -3,3 +3,13 @@ spring:
     import:
       - classpath:config/mysqlConfig.yml
       - classpath:config/swaggerConfig.yml
+  # mustache csrf 토큰을 사용할 수 있도록 설정
+  mustache:
+    servlet:
+      expose-request-attributes: true
+
+# session timeout
+server:
+  servlet:
+    session:
+      timeout: 90m
