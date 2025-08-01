@@ -1,0 +1,11 @@
+springdoc:
+  swagger-ui:
+    path: /docs
+
+# dependency
+# implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+# <dependency>
+#   <groupId>org.springdoc</groupId>
+#   <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+#   <version>2.2.0</version>
+# </dependency>

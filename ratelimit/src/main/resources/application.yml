@@ -1,0 +1,5 @@
+spring:
+    config:
+      import:
+        - 'classpath:/config/swaggerConfig.yml'
+        - 'classpath:/config/redisConfig.yml'
