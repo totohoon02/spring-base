@@ -1,0 +1,11 @@
+spring:
+  ai:
+    openai:
+      api-key: -
+      chat:
+        options:
+          model: 'gpt-4o-mini' # ???
+          temperature: 0.8 # ??? ??? 0 ~ 1
+      embedding:
+        options:
+          model: 'text-embedding-3-small'

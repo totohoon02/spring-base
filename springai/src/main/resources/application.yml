@@ -1,8 +1,0 @@
-spring:
-  ai:
-    openai:
-      api-key: "api-key"
-  config:
-    import:
-      - "classpath:config/swaggerConfig.yml"
-      - "classpath:config/mysqlConfig.yml"

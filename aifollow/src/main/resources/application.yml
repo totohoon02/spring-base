@@ -1,0 +1,5 @@
+spring:
+  config:
+    import:
+      - 'classpath:config/openAiConfig.yml'
+      - 'classpath:config/chromaConfig.yml'
